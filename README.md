@@ -29,7 +29,11 @@
 		* [go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/) 
 
 3. **实战项目** 
-	1. [seaweedfs](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/) GitHub 上星标 13k+，这是一个分布式文件系统，基于 Go 开发，部署方便，使用简单，功能强大。
-	2. [filebrowser](https://github.com/filebrowser/filebrowser) GitHub 上星标 13k+，这是一个自带文件浏览器的网盘服务，支持文件浏览、生成分享链接、批量上传、创建文件夹等功能、用户系统。
-	3. [go-admin](https://github.com/GoAdminGroup/go-admin)  GitHub 上星标 5k+，基于 Go 语言的一个数据可视化与管理平台，使开发者能在极简短的时间里，用极简短的代码量搭建起一个后台管理。
-	4. [7天用Go从零实现分布式缓存GeeCache](https://geektutu.com/post/geecache.html)  每天完成的部分都是可以独立运行和测试的，就像搭积木一样，最终组合在一起就是一个完整的分布式缓存系统。每天的代码在 100 行左右。
+	1. [seaweedfs](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/) 
+	GitHub 上星标 13k+，这是一个分布式文件系统，基于 Go 开发，部署方便，使用简单，功能强大。
+	2. [filebrowser](https://github.com/filebrowser/filebrowser) 
+	GitHub 上星标 13k+，这是一个自带文件浏览器的网盘服务，支持文件浏览、生成分享链接、批量上传、创建文件夹等功能、用户系统。
+	3. [go-admin](https://github.com/GoAdminGroup/go-admin)  
+	GitHub 上星标 5k+，基于 Go 语言的一个数据可视化与管理平台，使开发者能在极简短的时间里，用极简短的代码量搭建起一个后台管理。
+	4. [7天用Go从零实现分布式缓存GeeCache](https://geektutu.com/post/geecache.html)  
+	每天完成的部分都是可以独立运行和测试的，就像搭积木一样，最终组合在一起就是一个完整的分布式缓存系统。每天的代码在 100 行左右。
