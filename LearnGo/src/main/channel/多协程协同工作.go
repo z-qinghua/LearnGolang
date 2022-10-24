@@ -46,7 +46,7 @@ func main() {
 
 	//试图从两个通道读取数据，此时线程可能阻塞直到有数据写入通道
 	squareVal, cubeVal := <-squareChan, <-cubeChan
-	//当数据被写入通道，主线程继续运行
+	//当数据被写入通道，主线程继续运行，最后打印
 	sum := squareVal + cubeVal
 
 	fmt.Println("[main] sum of square and cube of", testNum, "is", sum)
