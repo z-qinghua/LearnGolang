@@ -22,4 +22,5 @@ func main() {
 	//然后我们可以像前面一样接收这两个值
 	fmt.Println(<-messages)
 	fmt.Println(<-messages)
+	//可缓存通道允许在没有对应接收方的情况下，缓存限定量的值
 }
