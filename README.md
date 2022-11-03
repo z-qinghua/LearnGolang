@@ -7,6 +7,7 @@
 #### 模块
 - LearnGo
 - [Go_example](https://learnku.com/docs/gobyexample/2020) 
+- [Go语言数据结构与算法](https://learnku.com/articles/59094)
 
 ### 学习路线指南
 1. **看一套视频** 
