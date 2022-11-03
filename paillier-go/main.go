@@ -31,6 +31,7 @@ func main() {
     c20, _ := paillier.Encrypt(&privKey.PublicKey, m20.Bytes())
 
     // 加密整数可以加在一起：将15的密文与20的密文相加（注意都是同一公钥）
+    fmt.Println("加密整数可以加在一起:")
     plusM16M20 := paillier.AddCipher(&privKey.PublicKey, c15, c20)
     // 使用私钥解密和的明文结果
     decryptedAddition, _ := paillier.Decrypt(privKey, plusM16M20)
@@ -38,12 +39,14 @@ func main() {
         new(big.Int).SetBytes(decryptedAddition).String()) // 35!
 
     // 加密整数可以和未加密整数相加：将15密文与10明文常数相加
+    fmt.Println("加密整数可以和未加密整数相加:")
     plusE15and10 := paillier.Add(&privKey.PublicKey, c15, new(big.Int).SetInt64(10).Bytes())
     decryptedAddition, _ = paillier.Decrypt(privKey, plusE15and10)
     fmt.Println("Result of 15+10 after decryption: ",
         new(big.Int).SetBytes(decryptedAddition).String()) // 25!
 
     // 加密整数可以乘以未加密整数：将15密文与10明文常数相乘
+    fmt.Println("加密整数可以乘以未加密整数:")
     mulE15and10 := paillier.Mul(&privKey.PublicKey, c15, new(big.Int).SetInt64(10).Bytes())
     decryptedMul, _ := paillier.Decrypt(privKey, mulE15and10)
     fmt.Println("Result of 15*10 after decryption: ",
